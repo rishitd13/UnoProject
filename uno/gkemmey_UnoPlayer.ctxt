@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=gkemmey_UnoPlayer
+comment1.params=hand\ rank
+comment1.target=int\ calculateNumberOfCardTypeInHand(java.util.List,\ UnoPlayer.Rank)
+comment2.params=hand\ color
+comment2.target=int\ calculateNumberOfColorInHand(java.util.List,\ UnoPlayer.Color)
+comment3.params=state\ maxOrMin
+comment3.target=int\ calculateHandSizeOfOtherPlayer(GameState,\ java.lang.String)
+comment4.params=playable\ rank
+comment4.target=int\ calculateNumberOfPlayableCardType(java.util.ArrayList,\ UnoPlayer.Rank)
+comment5.params=hand\ colors\ points
+comment5.target=void\ calculateColorIHaveTheMostOfAndPointsInEachColor(java.util.List,\ int[],\ int[])
+numComments=6

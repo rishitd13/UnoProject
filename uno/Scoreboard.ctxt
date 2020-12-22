@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Scoreboard
+comment0.text=\n\ <p>A\ Scoreboard\ is\ a\ simple\ container\ for\ player\ names\ and\ their\ current\n\ scores.\ It\ can\ do\ the\ obvious\ things\ like\ increment\ someone's\ score,\n\ find\ the\ score\ for\ a\ particular\ player,\ and\ determine\ the\ winner\ at\ the\n\ end\ of\ the\ game.</p>\n\ @since\ 1.0\n
+comment1.params=playerList
+comment1.target=Scoreboard(java.lang.String[])
+comment1.text=\n\ Instantiate\ a\ new\ Scoreboard\ object,\ given\ an\ array\ of\ player\ names.\n
+comment2.params=player\ points
+comment2.target=void\ addToScore(int,\ int)
+comment2.text=\n\ Award\ points\ to\ a\ particular\ player.\n\ @param\ player\ The\ zero-based\ player\ number\ who\ just\ won\ a\ game.\n\ @param\ points\ The\ number\ of\ points\ to\ award.\n
+comment3.params=player
+comment3.target=int\ getScore(int)
+comment3.text=\n\ Obtain\ the\ score\ of\ a\ particular\ player.\n\ @param\ player\ The\ zero-based\ player\ number\ whose\ score\ is\ desired.\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ Render\ the\ Scoreboard\ as\ a\ string\ for\ display\ during\ game\ play.\n
+comment5.params=
+comment5.target=java.lang.String[]\ getPlayerList()
+comment5.text=\n\ Return\ the\ list\ of\ player\ names.\n
+comment6.params=
+comment6.target=int\ getNumPlayers()
+comment6.text=\n\ Return\ the\ number\ of\ players\ in\ the\ game.\n
+comment7.params=
+comment7.target=int\ getWinner()
+comment7.text=\n\ Return\ the\ zero-based\ number\ of\ the\ player\ who\ has\ won\ the\ game,\n\ <i>presuming\ someone\ has.</i>\ (This\ method\ should\ only\ be\ called\n\ once\ the\ end\ of\ the\ entire\ match\ has\ been\ detected\ by\ some\ other\n\ means,\ and\ returns\ the\ number\ of\ the\ player\ with\ the\ highest\ score.)\n
+numComments=8

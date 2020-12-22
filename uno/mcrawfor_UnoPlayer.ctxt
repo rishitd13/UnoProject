@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=mcrawfor_UnoPlayer
+comment1.params=hand\ state
+comment1.target=int\ endGame(java.util.List,\ GameState)
+comment1.text=Returns\ whether\ or\ not\ the\ game\ is\ finishing\ and\ if\ so,\ which\ player\ is\ ahead
+comment2.params=hand\ number
+comment2.target=int\ playCard(java.util.List,\ int)
+comment2.text=Finds\ different\ color\ same\ number\ cards,\ returns\ the\ other\ color
+comment3.params=hand
+comment3.target=void\ countHand(java.util.List)
+comment3.text=Populates\ the\ handColors\ array,\ seeing\ how\ many\ cards\ of\ each\ color\ is\ in\ the\ hand
+comment4.params=hand
+comment4.target=void\ countHandNumbers(java.util.List)
+comment4.text=Populates\ the\ handNumberValues\ array,\ seeing\ which\ color\ has\ the\ most\ points
+numComments=5
